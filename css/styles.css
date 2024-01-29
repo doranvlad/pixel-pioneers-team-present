@@ -183,7 +183,7 @@ ul {
     background: linear-gradient(0deg, rgba(34, 193, 195, 1) 0%, rgba(253, 187, 45, 1) 100%);
     width: 100%;
     height: 100vh;
-    padding-top: 150px;
+    padding-top: 200px;
     color: #000;
 }
 
@@ -232,6 +232,11 @@ ul {
 
 }
 
+.mb {
+    margin-bottom: 200px;
+    justify-content: space-evenly;
+}
+
 .conclusions-list-item {
     display: flex;
     align-items: center;
@@ -241,3 +246,55 @@ ul {
 /* #endregion Star */
 
 
+.problems {
+    background: rgb(34, 193, 195);
+    background: linear-gradient(180deg, rgba(34, 193, 195, 1) 0%, rgba(253, 187, 45, 1) 100%);
+    width: 100%;
+    height: 100vh;
+    padding-top: 150px;
+    color: #000;
+}
+
+.audience {
+    padding-top: 150px;
+    padding-bottom: 150px;
+    width: 100%;
+    height: 100vh;
+    background: rgb(34, 193, 195);
+        background: linear-gradient(180deg, rgba(34, 193, 195, 1) 0%, rgba(253, 187, 45, 1) 100%);
+}
+
+.container {}
+
+.audience-wrap {
+    display: flex;
+    justify-content: space-around;
+    gap: 50px;
+}
+
+.audience-for-img {
+    width: 50%;
+}
+.audience-for-img img {
+    height: 70vh;
+    opacity: 0.9;
+
+}
+
+.audience-for-list {
+    width: 50%;
+    color: #000;
+}
+.audience-name {
+    font-size: 48px;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.audience-list {
+    font-size: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 50px;
+}
